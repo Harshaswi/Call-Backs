@@ -8,11 +8,11 @@
 - You have to decay learning based on below conditions 
         Cond1. If your validation accuracy at that epoch is less than previous epoch accuracy, you have to decrese the
                learning rate by 10%. 
-        Cond2. For every 3rd epoch, decay your learning rate by 5%.
+        Cond2. For every 3rd epoch, decay your learning rate by 5
         
-- If you are getting any NaN values(either weigths or loss) while training, you have to terminate your training. 
+- If you are getting any NaN values(either weigths or loss) while training, you have to terminate your trainin
 
-- You have to stop the training if your validation accuracy is not increased in last 2 epochs.
+- You have to stop the training if your validation accuracy is not increased in last 2 epoch
 
-- Use tensorboard for every model and analyse your scalar plots and histograms. (you need to upload the screenshots and write the observations for each model for evaluation)
+- Use tensorboard for every model and analyse your scalar plots and histograms. (you need to upload the screenshots and write the observations for each model for evaluatio
 
